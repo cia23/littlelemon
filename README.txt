@@ -6,3 +6,7 @@ The following API endpoints are implemented:
 /restaurant/booking/ : see all the bookings
 /auth/ : djoser API endpoints
 /api-token-auth/ : get the token for the user
+
+The best way to test this code is to run the following commands:
+python manage.py test littlelemon.tests.test_views
+python manage.py test littlelemon.tests.test_models
